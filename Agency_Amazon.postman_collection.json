@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "10261272-88da-4ef6-84bb-3918d6b545a3",
+		"name": "Agency_Amazon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28949652"
+	},
+	"item": [
+		{
+			"name": "Get sort data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ads/sortedAds?order=desc&sort=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ads",
+						"sortedAds"
+					],
+					"query": [
+						{
+							"key": "order",
+							"value": "desc"
+						},
+						{
+							"key": "sort",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ads",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ads"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
